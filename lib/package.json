@@ -1,0 +1,20 @@
+{
+    "name": "libs",
+    "description": "AuthChainJS Backbone Library",
+    "version": "0.1.0",
+    "author": {
+        "name": "Lauro Moraes",
+        "email": "subversivo58@gmail.com",
+        "url": "https://github.com/subversivo58"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/authchainjs/signaling.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/authchainjs/signaling/issues"
+    },
+    "main": "./index.js",
+    "private": true
+}

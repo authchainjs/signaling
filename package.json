@@ -1,0 +1,41 @@
+{
+    "name": "authchainjs-signaling",
+    "description": "WebRTC WebSocket Signaling Server",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": {
+        "name": "Lauro Moraes",
+        "email": "subversivo58@gmail.com",
+        "url": "https://github.com/subversivo58"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/authchainjs/signaling.git"
+    },
+    "keywords": [
+        "authchainjs",
+        "signaling",
+        "crypto",
+        "socket"
+    ],
+    "dependencies": {
+        "node-cmake": "^2.5.1",
+        "dotenv": "^4.0.0",
+        "jsonwebtoken": "^8.3.0",
+        "node-webcrypto-ossl": "^1.0.38",
+        "uws": "10.148.1",
+        "wrtc": "^0.2.0"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/authchainjs/signaling/issues"
+    },
+    "engines": {
+        "node": "10.x",
+        "npm": "6.x"
+    },
+    "private": true
+}

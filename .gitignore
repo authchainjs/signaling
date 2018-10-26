@@ -1,0 +1,47 @@
+# OS generated files #
+######################
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Node build artifacts
+/node_modules
+npm-debug.log
+package-lock.json
+
+# Local development blockchain(s) file(s)
+/files/ledger
+
+# Local development
+*.env
+*.dev
+
+# Docker
+Dockerfile
+docker-compose.yml
