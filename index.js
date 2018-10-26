@@ -37,6 +37,7 @@ const CredentialManager = new Credential()
 
 // credential for WebRTC is first
 CredentialManager.on('done', (credential, fingerprint, keys) => {
+    console.log(credential, fingerprint, keys)
     SignalingInitialize(credential, fingerprint)
 })
 
